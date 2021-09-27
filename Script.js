@@ -7,7 +7,7 @@ const calcy=(()=>{
 let totalgrade= parseFloat(maths)+parseFloat(computer)+parseFloat(Physics)+parseFloat(English);
 
 // alert(totalgrade);
-let Perce=(totalgrade/400)*4;
+let Perce=(totalgrade/400)*100;
 // alert(Perce);
 if(Perce<=100 && Perce>=80){
     grade="A";
